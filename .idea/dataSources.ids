@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails ajaxpro: development" uuid="7b33c206-077c-4917-a055-13e5c8cbe26a">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ajaxpro: test" uuid="d2bedaba-71ae-41e3-ae81-07d4a742d85b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ajaxpro: production" uuid="b6a81247-aaf8-4147-9aa4-b26b2ec75eaf">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

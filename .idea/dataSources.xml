@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2766345102">
+    <data-source source="LOCAL" name="Rails ajaxpro: development" uuid="7b33c206-077c-4917-a055-13e5c8cbe26a">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ajaxpro_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ajaxpro: test" uuid="d2bedaba-71ae-41e3-ae81-07d4a742d85b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ajaxpro_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ajaxpro: production" uuid="b6a81247-aaf8-4147-9aa4-b26b2ec75eaf">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ajaxpro_production</jdbc-url>
+      <user-name>ajaxpro</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfebdfe0dfebdff2dffadff8dfe5dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

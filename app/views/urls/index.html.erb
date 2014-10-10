@@ -1,0 +1,59 @@
+<!--#site-content-->
+<div id="site-content">
+  <section class="grid grid-pad">
+
+    <%= form_for Url.new, :html => {:id => "url_form", :class => 'new_user_account'} do |f| %>
+        <fieldset class="reg-form" style="border-bottom-left-radius: 0em 0em; border-bottom-right-radius: 0em 0em; padding-bottom: 10px">
+          <p>
+            <label for="user_account_login">Website URL:</label>
+            <%= f.text_field :Url, :class => 'text-input', id: 'url' %>
+          </p>
+          <p class="sign-in-btn">
+            <%= f.submit "Record URL", :class => 'button-primary',:id => 'RecordURL' %>
+          </p>
+        </fieldset>
+    <% end %>
+
+    <div class="reg-form" style="border-top-left-radius: 0em 0em; border-top-right-radius: 0em 0em; padding-top: 10px">
+      <span class="or-rule">URLs</span>
+      <!--<div id="loading" style="text-align: center"> <%= image_tag "ajax-loader.gif" %></div>-->
+      <ol id="urls_list" style="padding-left: 15px; font-size: 14px;">
+
+      </ol>
+    </div>
+  </section>
+  <!-- #site-content -->
+</div>
+
+<script type="text/html" id="item_template">
+  <li>${Url}</li>
+</script>
+
+<script>
+    $(window.applicationCache).bind('error', function () {
+        alert('There was an error when loading the cache manifest.');
+    });
+
+//    if (!localStorage["pendingItems"]) {
+//        localStorage["pendingItems"] = JSON.stringify([]);
+//    }
+//
+//    $.retrieveJSON("/items.json", function(data) {
+//        var pendingItems = $.parseJSON(localStorage["pendingItems"]);
+//        $("#items").html($("#item_template").tmpl(data.concat(pendingItems)));
+//    });
+//
+//    $.retrieveJSON('/urls.json', function(data) {
+//        var pendingItems = $.parseJSON(localStorage["pendingItems"]);
+//        $("#urls_list").empty().append($("#item_template").tmpl(data));
+//    });
+
+    $.retrieveJSON('/urls.json', function(data) {
+//        $("#urls_list").empty().append($("#item_template").tmpl(data));
+        $("#urls_list").html($("#item_template").tmpl(data));
+    });
+
+//    $.getJSON("/urls.json", function(data) {
+//        $("#urls_list").html($("#item_template").tmpl(data));
+//    });
+</script>
