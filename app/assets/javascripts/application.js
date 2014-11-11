@@ -15,6 +15,7 @@
 //= require jquery.tmpl.min
 //= require jquery.offline
 //= require json
+//= require jquery.turbolinks
 // require turbolinks
 //= require custom
 //= require validate
