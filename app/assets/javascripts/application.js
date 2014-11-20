@@ -11,11 +11,13 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery-migrate-1.2.1
 //= require jquery_ujs
 //= require jquery.tmpl.min
 //= require jquery.offline
 //= require json
-//= require jquery.turbolinks
+// require jquery.turbolinks
 // require turbolinks
-//= require custom
-//= require validate
+// require custom
+// require validate
+//= require jquery.validate.min

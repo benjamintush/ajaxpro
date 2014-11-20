@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'urls#index'
   # root 'home#index'
   resources :urls
+  get "home",  to: "home#index"
 
   # match "/application.manifest" => Rails::Offline, via: [:get, :post]
 

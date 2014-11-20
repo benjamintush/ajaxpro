@@ -1,4 +1,4 @@
 class Url < ActiveRecord::Base
-  validates :url, presence: true
-  default_scope -> { order('created_at DESC') }
+  # validates :Url, presence: true
+  default_scope -> { order('id DESC') }
 end
